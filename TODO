@@ -4,6 +4,8 @@
     * Overview, What is Sonar?
     * Usage in green field projects
     * Usage in legacy projects
+        * Identify critical code (mostly untested code)
+            * complex code, LCOM4 high...
 
 - Continuous Inspection part:
     * Show workflow with pics from Sonarsource blog posting
