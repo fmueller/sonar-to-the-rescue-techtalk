@@ -1,31 +1,5 @@
-- Introduction part
-
-- Sonar part:
-    * Overview, What is Sonar?
-    * Usage in green field projects
-    * Usage in legacy projects
-        * Identify critical code (mostly untested code)
-            * complex code, LCOM4 high...
-    * Pimp my Sonar (just show or name some useful plugins, plugin roadshow)
-
 - Demo part
+    * maybe show manual metrics feature?
 
 ideas:
-- know your tool: sonar run once a day is enough
-- different dashboards for different roles
-- use the widgets you need
-- create action plans, either grouped by technical violations or by domain it tackles
-- track metrics over time: software is not static, is continuously evolves
-- define alerts that helps your team and ensures dicipline
-- if it helps, use manuel metrics, e.g. for manual code reviews
 - understand what is measured: http://docs.codehaus.org/display/SONAR/Java+Metric+Definitions
-- use the build breaker plugin to break the ci build if soner alert raises -> next morning devs are alerted and will fix the build
-
-- take screenshots for example from nemo.sonarsource.org
-
-- necessary plugins to be ready: scm activity plugin
-- nice to have: weighted violations, taglist, security rules, build breaker
-- for big button users: SIG Maintainability Model plugin, technical debt plugin, quality index plugin
-- for worsest legacy projects ever: violation density plugin (http://docs.codehaus.org/display/SONAR/Violation+Density+Plugin)
-
-- use jacoco for code coverage: distinquish between integration test and unit test coverage (also good for legacy projects, testing happy paths first by integration and acceptance tests)
