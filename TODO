@@ -9,15 +9,11 @@
     * Pimp my Sonar (just show or name some useful plugins, plugin roadshow)
 
 - Continuous Inspection part:
-    * Show workflow with pics from Sonarsource blog posting
     * Answer questions like "But we have no time for this in crunch time"
 
 - Demo part
 
 - improve Thanks for listening slide with icons for twitter, mail and add github account
-
-- add reference slide with:
-    * http://www.sonarsource.org/effective-code-review-with-sonar/
 
 ideas:
 - know your tool: sonar run once a day is enough
