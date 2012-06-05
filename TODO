@@ -8,18 +8,12 @@
             * complex code, LCOM4 high...
     * Pimp my Sonar (just show or name some useful plugins, plugin roadshow)
 
-- Continuous Inspection part:
-    * Answer questions like "But we have no time for this in crunch time"
-
 - Demo part
 
 ideas:
 - know your tool: sonar run once a day is enough
 - different dashboards for different roles
 - use the widgets you need
-- talk about achievments in daily standup
-- have fun by doing continuous inspection 15 minutes every day
-- simple statements: not possible
 - create action plans, either grouped by technical violations or by domain it tackles
 - track metrics over time: software is not static, is continuously evolves
 - define alerts that helps your team and ensures dicipline
