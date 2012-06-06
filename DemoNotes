@@ -1,0 +1,20 @@
+Demo
+====
+
+
+Continuous Inspection:
+
+1. Show users in the system
+2. Show dashboard for each user
+3. Switch to developer user and go into violations drilldown
+4. Comment one violation and assign it to another developer who is responsible for it
+5. Login as the other developer an view the newly assigned review
+6. Comment the violation
+7. Show manual violation feature by commenting a strange looking line of code
+8. Create action plan and show howto change a dashboard
+
+
+General Hints:
+
+- Show usage of clouds
+- Show usage of lcom4 metric
