@@ -1,1 +1,3 @@
 - improve general hints by adding some screenshots of different dashboard, it coverage / code coverage et cetera
+- maybe add some slides with infos for LCOM4 and response for class
+- maybe add slide with hints for identifying problematic code (e.g. complexity/method <--> code coverage)
