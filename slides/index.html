@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Sonar to the Rescue</title>
+  <title>Continuous Inspection to the Rescue</title>
   <meta name="viewport" content="width=1024, user-scalable=no">
 
   <link rel="stylesheet" href="styles/deck.core.css" type="text/css">
@@ -20,17 +20,7 @@
 <body class="deck-container">
 
 <section class="slide">
-  <h1>Sonar to the Rescue</h1>
-</section>
-
-<section class="slide">
-  <h2>About me</h2>
-  <ul>
-    <li>Software Engineer because of passion</li>
-    <li>Student by day (MSc Applied Computer Science)</li>
-    <li>Open Source Enthusiast by night</li>
-    <li>Working for adesso AG in between</li>
-  </ul>
+  <h1>Continuous Inspection to the Rescue</h1>
 </section>
 
 <section class="slide">
@@ -41,12 +31,12 @@
       <p>Your, my, our problems...</p>
     </li>
     <li class="slide">
-      <h5>Sonar</h5>
-      <p>... to the Rescue, hopefully</p>
+      <h5>SonarQube</h5>
+      <p>Know your tools</p>
     </li>
     <li class="slide">
       <h5>Continuous Inspection</h5>
-      <p>Know your tools</p>
+      <p>... to the Rescue</p>
     </li>
     <li class="slide">
       <h5>Demo Time!</h5>
@@ -62,13 +52,13 @@
     <li class="slide">code becomes more cluttered over time</li>
     <li class="slide">complexity increases, testability decreases</li>
     <li class="slide">hard to find all problematic places in your code base</li>
-    <li class="slide">nearly impossible to fix all problems at once</li>
+    <li class="slide">impossible to fix all problems at once</li>
   </ul>
 </section>
 
 <section class="slide">
-  <h2>Sonar</h2>
-  <p>Sonar is a code quality management tool:</p>
+  <h2>SonarQube</h2>
+  <p>It's is a code quality management tool:</p>
   <ul>
     <li class="slide">web application running on JVM</li>
     <li class="slide">measures different metrics regarding code quality</li>
@@ -79,29 +69,17 @@
 </section>
 
 <section class="slide">
-  <h2>Sonar</h2>
-  <p>If everything is set up correctly it looks like this.</p>
-  <img src="images/sonar-dashboard.png" alt="sonar dashboard" />
-</section>
-
-<section class="slide">
-  <h2>Sonar - General Hints</h2>
+  <h2>SonarQube - General Hints</h2>
   <ul>
     <li class="slide">understand what is measured: <a href="http://docs.codehaus.org/display/SONAR/Java+Metric+Definitions">Metric Definitions</a></li>
-    <li class="slide">one sonar analysis per day is enough</li>
+    <li class="slide">one analysis per day is enough</li>
     <li class="slide">use the widgets you need</li>
     <li class="slide">define alerts that helps your team and ensures discipline</li>
   </ul>
 </section>
 
 <section class="slide">
-  <h2>Sonar - General Hints</h2>
-  <p>Use Jacoco for measuring code coverage of unit and integration tests separately.</p>
-  <img style="width: 900px" src="images/it-coverage-tab.png" alt="integration test coverage detail view of sonar" />
-</section>
-
-<section class="slide">
-  <h2>Sonar - General Hints</h2>
+  <h2>SonarQube - General Hints</h2>
   <p>Different dashboards for different roles.</p>
   <div class="slide">
     <p>For developers:</p>
@@ -111,20 +89,14 @@
 </section>
 
 <section class="slide">
-  <h2>Sonar - General Hints</h2>
+  <h2>SonarQube - General Hints</h2>
   <p>And a different one for tech lead of the project:</p>
   <img style="width: 900px" src="images/techlead-dashboard.png" alt="developer dashboard" />
   </ul>
 </section>
 
 <section class="slide">
-  <h2>Sonar - General Hints</h2>
-  <p>Create action plans: either grouped by technical violations, by version or by domain.</p>
-  <img style="width: 900px" src="images/action-plans-reviews.png" alt="actions plans and code review dashboard" />
-</section>
-
-<section class="slide">
-  <h2>Sonar - Pimp it</h2>
+  <h2>SonarQube - Pimp it</h2>
   <p>Upgrade your tool before you start:</p>
   <ul>
     <li class="slide">necessary plugin to be ready: scm activity</li>
@@ -139,7 +111,7 @@
   <p class="slide">To be honest:</p>
   <ul>
     <li class="slide">it's nothing new</li>
-    <li class="slide">BUT: with Sonar you have the right tool (imho)</li>
+    <li class="slide">BUT: with SonarQube you have the right tool (imho)</li>
   </ul>
   <p class="slide">Continuous Inspection can be described by a workflow.</p>
 </section>
@@ -174,7 +146,7 @@
 
 <section class="slide">
   <h2>CI - Step 3</h2>
-  <p>Use Sonar to list and filter your reviews.</p>
+  <p>Use SonarQube to list and filter your reviews.</p>
   <img src="images/SonarReviewsService.png" alt="reviews overview of Sonar" />
 </section>
 
@@ -184,29 +156,17 @@
 </section>
 
 <section class="slide">
-  <h2>Continuous Inspection</h2>
-  <p class="slide">Easy, isn't it?</p>
-  <p class="slide">Try it:</p>
-  <ul>
-    <li class="slide">have fun by doing continuous inspection 5, 10 or 15 minutes every day</li>
-    <li class="slide">talk about achievements in daily standup</li>
-  </ul>
-  <p class="slide">But this only works if everyone in your team believes in the process and in the tool.</p>
-</section>
-
-<section class="slide">
   <h1>Demo Time!</h1>
 </section>
 
 <section class="slide">
   <h2>Thanks for listening!</h2>
   <p>
-    You find the slides here:<br />
+    Slides:<br />
     <a href="https://github.com/fmueller/sonar-to-the-rescue-techtalk">github.com/fmueller/sonar-to-the-rescue-techtalk</a>
   </p>
-  <p>If you want to stay in contact:</p>
+  <br />
   <div style="text-align: center">
-    <p>felix.mueller@adesso.de</p>
     <p>@fmueller_bln</p>
     <p>gplus.to/fmueller</p>
   </div>
